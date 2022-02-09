@@ -30,15 +30,6 @@ basemap <- rbind(ne_states(country = "Canada",returnclass = "sf")%>%
                    st_as_sf()%>%
                    st_transform(latlong))
 
-basemap_musquash <- basemap%>%
-  st_intersection(.,musquash%>%
-                    st_transform(utm_mar)%>%
-                    st_buffer(0.5)%>%
-                    st_transform(latlong)%>%
-                    st_bbox()%>%
-                    st_as_sfc()%>%
-                    st_as_sf())# this will trim the polygon to the extent of our focal area of interest using a bounding box
-
 
 #make a map for the readme
 p1 <- ggplot()+
@@ -46,7 +37,7 @@ p1 <- ggplot()+
   theme_bw()+
   theme(panel.grid = element_blank(),
         legend.position=c(0.1,0.2))+
-  labs(title="Musquash Marine Protected Area")+
+  labs(title="Musquash Marine Protected Area",fill="")+
   scale_fill_viridis(discrete=T,direction = -1);p1
 
 ggsave("inst/Musquash_MPA.png",p1,height=6,width=6,units="in",dpi=600)
