@@ -47,7 +47,7 @@ sf_use_s2(FALSE)
     scale_fill_viridis(discrete=T,direction = -1);p1
   
   ggsave("output/eDNA_processing_2022.png",p1,
-         height=6,width=6,units="in",dpi=600)
+         height=6,width=6,units="in",dpi=600) 
 
 #output the stations to a csv
   write.csv(edna_samples%>%
