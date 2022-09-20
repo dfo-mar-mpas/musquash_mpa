@@ -4,294 +4,294 @@
 "Musq_10","Surface","Sonde","temperature",15.01
 "Musq_10","Surface","Sonde","salinity",31.24
 "Musq_10","Surface","Sonde","turbidity",34.9
-"Musq_10","Surface","Sonde","chl",2.46
-"Musq_10","Bottom","CastAway","temperature",15.0721354365373
-"Musq_10","Bottom","CastAway","salinity",31.0898717564324
+"Musq_10","Surface","Sonde","chl",0.63
+"Musq_10","Bottom","CastAway","temperature",15.0769630172839
+"Musq_10","Bottom","CastAway","salinity",31.0843580055991
 "Musq_10","Bottom","Sonde","temperature",15.23
 "Musq_10","Bottom","Sonde","salinity",31.03
 "Musq_10","Bottom","Sonde","turbidity",27.4
-"Musq_10","Bottom","Sonde","chl",2.62
-"Musq_12","Surface","CastAway","temperature",16.4015876048985
-"Musq_12","Surface","CastAway","salinity",29.4287206958739
+"Musq_10","Bottom","Sonde","chl",0.67
+"Musq_12","Surface","CastAway","temperature",16.0945929878758
+"Musq_12","Surface","CastAway","salinity",29.9104117893729
 "Musq_12","Surface","Sonde","temperature",14.75
 "Musq_12","Surface","Sonde","salinity",31.67
 "Musq_12","Surface","Sonde","turbidity",23.5
-"Musq_12","Surface","Sonde","chl",2.54
+"Musq_12","Surface","Sonde","chl",0.65
 "Musq_12","Bottom","CastAway","temperature",14.8289927528807
 "Musq_12","Bottom","CastAway","salinity",31.5518820314837
 "Musq_12","Bottom","Sonde","temperature",14.81
 "Musq_12","Bottom","Sonde","salinity",31.65
 "Musq_12","Bottom","Sonde","turbidity",23.9
-"Musq_12","Bottom","Sonde","chl",2.24
-"Musq_14","Surface","CastAway","temperature",16.3695218807847
-"Musq_14","Surface","CastAway","salinity",29.4073742060784
+"Musq_12","Bottom","Sonde","chl",0.58
+"Musq_14","Surface","CastAway","temperature",16.16650878819
+"Musq_14","Surface","CastAway","salinity",29.8170353095763
 "Musq_14","Surface","Sonde","temperature",14.61
 "Musq_14","Surface","Sonde","salinity",31.86
 "Musq_14","Surface","Sonde","turbidity",18.4
-"Musq_14","Surface","Sonde","chl",2.6
-"Musq_14","Bottom","CastAway","temperature",14.7119723331961
-"Musq_14","Bottom","CastAway","salinity",31.7612909378325
+"Musq_14","Surface","Sonde","chl",0.67
+"Musq_14","Bottom","CastAway","temperature",14.7043602853529
+"Musq_14","Bottom","CastAway","salinity",31.7614056864284
 "Musq_14","Bottom","Sonde","temperature",14.71
 "Musq_14","Bottom","Sonde","salinity",31.78
 "Musq_14","Bottom","Sonde","turbidity",15.3
-"Musq_14","Bottom","Sonde","chl",2.3
-"Musq_16","Surface","CastAway","temperature",16.4133099647631
-"Musq_16","Surface","CastAway","salinity",28.4587127979426
+"Musq_14","Bottom","Sonde","chl",0.59
+"Musq_16","Surface","CastAway","temperature",16.1731044945378
+"Musq_16","Surface","CastAway","salinity",29.0358616791669
 "Musq_16","Surface","Sonde","temperature",14.43
 "Musq_16","Surface","Sonde","salinity",32.02
 "Musq_16","Surface","Sonde","turbidity",6.5
-"Musq_16","Surface","Sonde","chl",1.44
-"Musq_16","Bottom","CastAway","temperature",14.5128879966529
-"Musq_16","Bottom","CastAway","salinity",31.8135037417198
+"Musq_16","Surface","Sonde","chl",0.37
+"Musq_16","Bottom","CastAway","temperature",14.5079128132354
+"Musq_16","Bottom","CastAway","salinity",31.8252782068275
 "Musq_16","Bottom","Sonde","temperature",14.63
 "Musq_16","Bottom","Sonde","salinity",31.81
 "Musq_16","Bottom","Sonde","turbidity",25
-"Musq_16","Bottom","Sonde","chl",1.94
+"Musq_16","Bottom","Sonde","chl",0.5
 "Musq_18","Surface","CastAway","temperature",15.1977441704735
 "Musq_18","Surface","CastAway","salinity",31.0378913721429
 "Musq_18","Surface","Sonde","temperature",14.33
 "Musq_18","Surface","Sonde","salinity",32.11
 "Musq_18","Surface","Sonde","turbidity",12.2
-"Musq_18","Surface","Sonde","chl",1.5
-"Musq_18","Bottom","CastAway","temperature",14.4018526197645
-"Musq_18","Bottom","CastAway","salinity",32.0148775956807
+"Musq_18","Surface","Sonde","chl",0.38
+"Musq_18","Bottom","CastAway","temperature",14.4018526197644
+"Musq_18","Bottom","CastAway","salinity",32.0148775956808
 "Musq_18","Bottom","Sonde","temperature",14.33
 "Musq_18","Bottom","Sonde","salinity",32.1
 "Musq_18","Bottom","Sonde","turbidity",11.7
-"Musq_18","Bottom","Sonde","chl",1.58
+"Musq_18","Bottom","Sonde","chl",0.4
 "Musq_2","Surface","CastAway","temperature",19.7238893875564
 "Musq_2","Surface","CastAway","salinity",13.6568133940324
 "Musq_2","Surface","Sonde","temperature",17.01
 "Musq_2","Surface","Sonde","salinity",25.6
 "Musq_2","Surface","Sonde","turbidity",34.6
-"Musq_2","Surface","Sonde","chl",4.01
-"Musq_2","Bottom","CastAway","temperature",17.0458061348166
-"Musq_2","Bottom","CastAway","salinity",25.6432101260885
+"Musq_2","Surface","Sonde","chl",1.03
+"Musq_2","Bottom","CastAway","temperature",17.0445162198123
+"Musq_2","Bottom","CastAway","salinity",25.6746304786506
 "Musq_2","Bottom","Sonde","temperature",18.68
 "Musq_2","Bottom","Sonde","salinity",18.18
 "Musq_2","Bottom","Sonde","turbidity",29.8
-"Musq_2","Bottom","Sonde","chl",3.72
+"Musq_2","Bottom","Sonde","chl",0.95
 "Musq_20","Surface","CastAway","temperature",14.8957558814582
 "Musq_20","Surface","CastAway","salinity",31.1616972366018
 "Musq_20","Surface","Sonde","temperature",14.37
 "Musq_20","Surface","Sonde","salinity",32.01
 "Musq_20","Surface","Sonde","turbidity",8.1
-"Musq_20","Surface","Sonde","chl",1.56
-"Musq_20","Bottom","CastAway","temperature",14.352795838784
-"Musq_20","Bottom","CastAway","salinity",31.8573558362803
+"Musq_20","Surface","Sonde","chl",0.4
+"Musq_20","Bottom","CastAway","temperature",14.3548617594846
+"Musq_20","Bottom","CastAway","salinity",31.8572335829415
 "Musq_20","Bottom","Sonde","temperature",14.3
 "Musq_20","Bottom","Sonde","salinity",32.09
 "Musq_20","Bottom","Sonde","turbidity",8.9
-"Musq_20","Bottom","Sonde","chl",1.05
-"Musq_22","Surface","CastAway","temperature",14.8090233865292
+"Musq_20","Bottom","Sonde","chl",0.27
+"Musq_22","Surface","CastAway","temperature",14.8090233865291
 "Musq_22","Surface","CastAway","salinity",31.6108093643389
 "Musq_22","Surface","Sonde","temperature",14.33
 "Musq_22","Surface","Sonde","salinity",32.2
 "Musq_22","Surface","Sonde","turbidity",7.7
-"Musq_22","Surface","Sonde","chl",1.42
+"Musq_22","Surface","Sonde","chl",0.37
 "Musq_22","Bottom","CastAway","temperature",14.3706888848382
 "Musq_22","Bottom","CastAway","salinity",32.030780056934
 "Musq_22","Bottom","Sonde","temperature",14.53
 "Musq_22","Bottom","Sonde","salinity",31.98
 "Musq_22","Bottom","Sonde","turbidity",9.2
-"Musq_22","Bottom","Sonde","chl",2.13
+"Musq_22","Bottom","Sonde","chl",0.55
 "Musq_24","Surface","CastAway","temperature",14.9657274892818
 "Musq_24","Surface","CastAway","salinity",30.9230053428942
 "Musq_24","Surface","Sonde","temperature",13.93
 "Musq_24","Surface","Sonde","salinity",32.41
 "Musq_24","Surface","Sonde","turbidity",9.1
-"Musq_24","Surface","Sonde","chl",1.98
-"Musq_24","Bottom","CastAway","temperature",13.9757427469475
-"Musq_24","Bottom","CastAway","salinity",32.2543593883535
+"Musq_24","Surface","Sonde","chl",0.51
+"Musq_24","Bottom","CastAway","temperature",13.978226258464
+"Musq_24","Bottom","CastAway","salinity",32.2524547527221
 "Musq_24","Bottom","Sonde","temperature",13.93
 "Musq_24","Bottom","Sonde","salinity",32.42
 "Musq_24","Bottom","Sonde","turbidity",9.2
-"Musq_24","Bottom","Sonde","chl",1.56
-"Musq_26","Surface","CastAway","temperature",15.220196540202
-"Musq_26","Surface","CastAway","salinity",29.8982893977598
+"Musq_24","Bottom","Sonde","chl",0.4
+"Musq_26","Surface","CastAway","temperature",15.0607771531317
+"Musq_26","Surface","CastAway","salinity",30.3751406604579
 "Musq_26","Surface","Sonde","temperature",13.99
 "Musq_26","Surface","Sonde","salinity",32.35
 "Musq_26","Surface","Sonde","turbidity",6.3
-"Musq_26","Surface","Sonde","chl",1.93
-"Musq_26","Bottom","CastAway","temperature",14.0542885275287
-"Musq_26","Bottom","CastAway","salinity",32.1945909976048
+"Musq_26","Surface","Sonde","chl",0.5
+"Musq_26","Bottom","CastAway","temperature",14.0548628735191
+"Musq_26","Bottom","CastAway","salinity",32.1909711764308
 "Musq_26","Bottom","Sonde","temperature",13.99
 "Musq_26","Bottom","Sonde","salinity",32.36
 "Musq_26","Bottom","Sonde","turbidity",9.4
-"Musq_26","Bottom","Sonde","chl",1.47
+"Musq_26","Bottom","Sonde","chl",0.38
 "Musq_28","Surface","CastAway","temperature",14.8211104999584
 "Musq_28","Surface","CastAway","salinity",31.1232350476378
 "Musq_28","Surface","Sonde","temperature",13.93
 "Musq_28","Surface","Sonde","salinity",32.4
 "Musq_28","Surface","Sonde","turbidity",7.5
-"Musq_28","Surface","Sonde","chl",2.92
-"Musq_28","Bottom","CastAway","temperature",13.9891482138164
-"Musq_28","Bottom","CastAway","salinity",32.2179181415564
+"Musq_28","Surface","Sonde","chl",0.75
+"Musq_28","Bottom","CastAway","temperature",13.9904051278362
+"Musq_28","Bottom","CastAway","salinity",32.2190626073233
 "Musq_28","Bottom","Sonde","temperature",13.96
 "Musq_28","Bottom","Sonde","salinity",32.39
 "Musq_28","Bottom","Sonde","turbidity",7.5
-"Musq_28","Bottom","Sonde","chl",2.92
+"Musq_28","Bottom","Sonde","chl",0.75
 "Musq_30","Surface","Sonde","temperature",13.92
 "Musq_30","Surface","Sonde","salinity",32.4
 "Musq_30","Surface","Sonde","turbidity",11.5
-"Musq_30","Surface","Sonde","chl",1.51
+"Musq_30","Surface","Sonde","chl",0.39
 "Musq_30","Bottom","Sonde","temperature",13.96
 "Musq_30","Bottom","Sonde","salinity",32.38
 "Musq_30","Bottom","Sonde","turbidity",10.6
-"Musq_30","Bottom","Sonde","chl",1.39
+"Musq_30","Bottom","Sonde","chl",0.35
 "Musq_32","Surface","CastAway","temperature",14.7105162418851
 "Musq_32","Surface","CastAway","salinity",30.8452522526957
 "Musq_32","Surface","Sonde","temperature",13.9
 "Musq_32","Surface","Sonde","salinity",32.36
 "Musq_32","Surface","Sonde","turbidity",7.6
-"Musq_32","Surface","Sonde","chl",1.55
+"Musq_32","Surface","Sonde","chl",0.4
 "Musq_32","Bottom","CastAway","temperature",13.9545897733439
 "Musq_32","Bottom","CastAway","salinity",32.2042479674577
 "Musq_32","Bottom","Sonde","temperature",14.21
 "Musq_32","Bottom","Sonde","salinity",32.25
 "Musq_32","Bottom","Sonde","turbidity",7.5
-"Musq_32","Bottom","Sonde","chl",1.48
+"Musq_32","Bottom","Sonde","chl",0.38
 "Musq_4","Surface","CastAway","temperature",18.7694331326054
 "Musq_4","Surface","CastAway","salinity",24.710250094728
 "Musq_4","Surface","Sonde","temperature",16.33
 "Musq_4","Surface","Sonde","salinity",27.81
 "Musq_4","Surface","Sonde","turbidity",30.6
-"Musq_4","Surface","Sonde","chl",4.38
+"Musq_4","Surface","Sonde","chl",1.12
 "Musq_4","Bottom","CastAway","temperature",16.3839129812021
 "Musq_4","Bottom","CastAway","salinity",27.7148145878421
 "Musq_4","Bottom","Sonde","temperature",16.86
 "Musq_4","Bottom","Sonde","salinity",26.63
 "Musq_4","Bottom","Sonde","turbidity",16.8
-"Musq_4","Bottom","Sonde","chl",2.15
-"Musq_6","Surface","CastAway","temperature",17.1230139392743
-"Musq_6","Surface","CastAway","salinity",27.6282610991349
+"Musq_4","Bottom","Sonde","chl",0.55
+"Musq_6","Surface","CastAway","temperature",16.9844839136562
+"Musq_6","Surface","CastAway","salinity",27.7368215671605
 "Musq_6","Surface","Sonde","temperature",15.78
 "Musq_6","Surface","Sonde","salinity",29.46
 "Musq_6","Surface","Sonde","turbidity",24.9
-"Musq_6","Surface","Sonde","chl",1.97
+"Musq_6","Surface","Sonde","chl",0.5
 "Musq_6","Bottom","CastAway","temperature",15.8464873538137
 "Musq_6","Bottom","CastAway","salinity",29.3374980553093
 "Musq_6","Bottom","Sonde","temperature",16.37
 "Musq_6","Bottom","Sonde","salinity",28.18
 "Musq_6","Bottom","Sonde","turbidity",24.7
-"Musq_6","Bottom","Sonde","chl",2.74
-"Musq_8","Surface","CastAway","temperature",16.8796855512038
-"Musq_8","Surface","CastAway","salinity",28.4669942075807
+"Musq_6","Bottom","Sonde","chl",0.7
+"Musq_8","Surface","CastAway","temperature",16.6403951533881
+"Musq_8","Surface","CastAway","salinity",28.7880163833377
 "Musq_8","Surface","Sonde","temperature",15.38
 "Musq_8","Surface","Sonde","salinity",30.45
 "Musq_8","Surface","Sonde","turbidity",44.6
-"Musq_8","Surface","Sonde","chl",3.12
+"Musq_8","Surface","Sonde","chl",0.8
 "Musq_8","Bottom","CastAway","temperature",15.4342472525218
 "Musq_8","Bottom","CastAway","salinity",30.300154135859
 "Musq_8","Bottom","Sonde","temperature",15.63
 "Musq_8","Bottom","Sonde","salinity",30.14
 "Musq_8","Bottom","Sonde","turbidity",33.5
-"Musq_8","Bottom","Sonde","chl",2.37
-"Zone 2A_1","Surface","CastAway","temperature",15.2770216555752
+"Musq_8","Bottom","Sonde","chl",0.61
+"Zone 2A_1","Surface","CastAway","temperature",15.2770216555751
 "Zone 2A_1","Surface","CastAway","salinity",30.4122935864742
 "Zone 2A_1","Surface","Sonde","temperature",13.93
 "Zone 2A_1","Surface","Sonde","salinity",32.4
 "Zone 2A_1","Surface","Sonde","turbidity",8.7
-"Zone 2A_1","Surface","Sonde","chl",1.42
-"Zone 2A_1","Bottom","CastAway","temperature",13.949723858581
-"Zone 2A_1","Bottom","CastAway","salinity",32.2041896633597
+"Zone 2A_1","Surface","Sonde","chl",0.36
+"Zone 2A_1","Bottom","CastAway","temperature",13.9489604102572
+"Zone 2A_1","Bottom","CastAway","salinity",32.2060364961648
 "Zone 2A_1","Bottom","Sonde","temperature",14.33
 "Zone 2A_1","Bottom","Sonde","salinity",32.16
 "Zone 2A_1","Bottom","Sonde","turbidity",8.9
-"Zone 2A_1","Bottom","Sonde","chl",1.57
+"Zone 2A_1","Bottom","Sonde","chl",0.4
 "Zone 2A_10","Surface","CastAway","temperature",14.5201440343237
 "Zone 2A_10","Surface","CastAway","salinity",31.7890210067546
 "Zone 2A_10","Surface","Sonde","temperature",13.91
 "Zone 2A_10","Surface","Sonde","salinity",32.4
 "Zone 2A_10","Surface","Sonde","turbidity",10.3
-"Zone 2A_10","Surface","Sonde","chl",1.51
-"Zone 2A_10","Bottom","CastAway","temperature",13.9711575878809
-"Zone 2A_10","Bottom","CastAway","salinity",32.2341115856994
+"Zone 2A_10","Surface","Sonde","chl",0.39
+"Zone 2A_10","Bottom","CastAway","temperature",13.9720816831589
+"Zone 2A_10","Bottom","CastAway","salinity",32.2335255012624
 "Zone 2A_10","Bottom","Sonde","temperature",13.99
 "Zone 2A_10","Bottom","Sonde","salinity",32.39
 "Zone 2A_10","Bottom","Sonde","turbidity",7.4
-"Zone 2A_10","Bottom","Sonde","chl",1.53
+"Zone 2A_10","Bottom","Sonde","chl",0.39
 "Zone 2A_12","Surface","CastAway","temperature",14.7574791370882
 "Zone 2A_12","Surface","CastAway","salinity",30.3750459030336
 "Zone 2A_12","Surface","Sonde","temperature",14.04
 "Zone 2A_12","Surface","Sonde","salinity",32.3
 "Zone 2A_12","Surface","Sonde","turbidity",7.4
-"Zone 2A_12","Surface","Sonde","chl",1.34
+"Zone 2A_12","Surface","Sonde","chl",0.34
 "Zone 2A_12","Bottom","CastAway","temperature",14.1050432388667
 "Zone 2A_12","Bottom","CastAway","salinity",32.1382208162128
 "Zone 2A_12","Bottom","Sonde","temperature",14.05
 "Zone 2A_12","Bottom","Sonde","salinity",32.3
 "Zone 2A_12","Bottom","Sonde","turbidity",7
-"Zone 2A_12","Bottom","Sonde","chl",1.48
+"Zone 2A_12","Bottom","Sonde","chl",0.38
 "Zone 2B_1","Surface","CastAway","temperature",14.7732453469487
 "Zone 2B_1","Surface","CastAway","salinity",31.1721121735755
 "Zone 2B_1","Surface","Sonde","temperature",13.94
 "Zone 2B_1","Surface","Sonde","salinity",32.41
 "Zone 2B_1","Surface","Sonde","turbidity",8.6
-"Zone 2B_1","Surface","Sonde","chl",1.68
-"Zone 2B_1","Bottom","CastAway","temperature",13.9900243289243
-"Zone 2B_1","Bottom","CastAway","salinity",32.2477013309908
+"Zone 2B_1","Surface","Sonde","chl",0.43
+"Zone 2B_1","Bottom","CastAway","temperature",13.9919724153012
+"Zone 2B_1","Bottom","CastAway","salinity",32.2472782027649
 "Zone 2B_1","Bottom","Sonde","temperature",14.13
 "Zone 2B_1","Bottom","Sonde","salinity",32.37
 "Zone 2B_1","Bottom","Sonde","turbidity",7.1
-"Zone 2B_1","Bottom","Sonde","chl",1.71
-"Zone 2B_2","Surface","CastAway","temperature",14.5524439589182
-"Zone 2B_2","Surface","CastAway","salinity",31.4502878857178
+"Zone 2B_1","Bottom","Sonde","chl",0.44
+"Zone 2B_2","Surface","CastAway","temperature",14.5524439589181
+"Zone 2B_2","Surface","CastAway","salinity",31.4502878857179
 "Zone 2B_2","Surface","Sonde","temperature",14.1
 "Zone 2B_2","Surface","Sonde","salinity",32.31
 "Zone 2B_2","Surface","Sonde","turbidity",12.5
-"Zone 2B_2","Surface","Sonde","chl",2.58
+"Zone 2B_2","Surface","Sonde","chl",0.66
 "Zone 2B_2","Bottom","CastAway","temperature",14.144945876944
 "Zone 2B_2","Bottom","CastAway","salinity",32.1132425266213
 "Zone 2B_2","Bottom","Sonde","temperature",14.13
 "Zone 2B_2","Bottom","Sonde","salinity",32.29
 "Zone 2B_2","Bottom","Sonde","turbidity",3.9
-"Zone 2B_2","Bottom","Sonde","chl",2.41
+"Zone 2B_2","Bottom","Sonde","chl",0.62
 "Zone 2B_3","Surface","CastAway","temperature",15.0842299512555
 "Zone 2B_3","Surface","CastAway","salinity",30.6572569958722
 "Zone 2B_3","Surface","Sonde","temperature",14.03
 "Zone 2B_3","Surface","Sonde","salinity",32.36
 "Zone 2B_3","Surface","Sonde","turbidity",10.4
-"Zone 2B_3","Surface","Sonde","chl",1.99
-"Zone 2B_3","Bottom","CastAway","temperature",14.0730539997359
-"Zone 2B_3","Bottom","CastAway","salinity",32.2083583276808
+"Zone 2B_3","Surface","Sonde","chl",0.51
+"Zone 2B_3","Bottom","CastAway","temperature",14.0744382693681
+"Zone 2B_3","Bottom","CastAway","salinity",32.2076948243194
 "Zone 2B_3","Bottom","Sonde","temperature",14.18
 "Zone 2B_3","Bottom","Sonde","salinity",32.32
 "Zone 2B_3","Bottom","Sonde","turbidity",6.4
-"Zone 2B_3","Bottom","Sonde","chl",1.92
+"Zone 2B_3","Bottom","Sonde","chl",0.49
 "Zone 3_1","Surface","CastAway","temperature",14.732932963154
-"Zone 3_1","Surface","CastAway","salinity",30.8458047208635
+"Zone 3_1","Surface","CastAway","salinity",30.8458047208634
 "Zone 3_1","Surface","Sonde","temperature",13.99
 "Zone 3_1","Surface","Sonde","salinity",32.37
 "Zone 3_1","Surface","Sonde","turbidity",6.4
-"Zone 3_1","Surface","Sonde","chl",1.22
-"Zone 3_1","Bottom","CastAway","temperature",14.0411790334047
-"Zone 3_1","Bottom","CastAway","salinity",32.2049662602826
+"Zone 3_1","Surface","Sonde","chl",0.31
+"Zone 3_1","Bottom","CastAway","temperature",14.0446644890902
+"Zone 3_1","Bottom","CastAway","salinity",32.2021132562695
 "Zone 3_1","Bottom","Sonde","temperature",14.11
 "Zone 3_1","Bottom","Sonde","salinity",32.29
 "Zone 3_1","Bottom","Sonde","turbidity",5.6
-"Zone 3_1","Bottom","Sonde","chl",1.83
+"Zone 3_1","Bottom","Sonde","chl",0.47
 "Zone 3_2","Surface","CastAway","temperature",14.8798937232519
 "Zone 3_2","Surface","CastAway","salinity",31.0516151800241
 "Zone 3_2","Surface","Sonde","temperature",13.99
 "Zone 3_2","Surface","Sonde","salinity",32.32
 "Zone 3_2","Surface","Sonde","turbidity",4.8
-"Zone 3_2","Surface","Sonde","chl",1.48
+"Zone 3_2","Surface","Sonde","chl",0.38
 "Zone 3_2","Bottom","CastAway","temperature",14.0323699696582
-"Zone 3_2","Bottom","CastAway","salinity",32.1552954776914
+"Zone 3_2","Bottom","CastAway","salinity",32.1552954776915
 "Zone 3_2","Bottom","Sonde","temperature",14.3
 "Zone 3_2","Bottom","Sonde","salinity",32.19
 "Zone 3_2","Bottom","Sonde","turbidity",5
-"Zone 3_2","Bottom","Sonde","chl",1.57
+"Zone 3_2","Bottom","Sonde","chl",0.4
 "Zone 3_3","Surface","CastAway","temperature",14.3736465591349
 "Zone 3_3","Surface","CastAway","salinity",31.6687107894543
 "Zone 3_3","Surface","Sonde","temperature",13.97
 "Zone 3_3","Surface","Sonde","salinity",32.36
 "Zone 3_3","Surface","Sonde","turbidity",7.3
-"Zone 3_3","Surface","Sonde","chl",1.3
+"Zone 3_3","Surface","Sonde","chl",0.33
 "Zone 3_3","Bottom","CastAway","temperature",14.0071623286829
 "Zone 3_3","Bottom","CastAway","salinity",32.1955643683899
 "Zone 3_3","Bottom","Sonde","temperature",14.1
 "Zone 3_3","Bottom","Sonde","salinity",32.28
 "Zone 3_3","Bottom","Sonde","turbidity",6
-"Zone 3_3","Bottom","Sonde","chl",1.69
+"Zone 3_3","Bottom","Sonde","chl",0.43

@@ -29,7 +29,7 @@ utm_mar <- "+proj=utm +zone=20 +datum=NAD83 +units=km +no_defs +ellps=GRS80 +tow
 musquash <- read_sf("data/Musquash_MPA_region.shp")%>%st_transform(latlong)
 
 #read in the sond data 
-sonde_df <- read.csv("data/Musquash_eDNA2209v2_cleaned.csv") #can be matched later
+sonde_df <- read.csv("data/Musquash_eDNA2209v2_cleaned.csv") 
 
 #load the sampled sites for coordinates -----
 edna_samples <- read.csv("data/Musquash_WaterSampling_2022_formatted.csv")%>%
