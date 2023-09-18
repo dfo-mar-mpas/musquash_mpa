@@ -1,0 +1,110 @@
+{
+  "comment" : "",
+  "version" : {
+    "file" : "1.0.0",
+    "ruskin" : "2.18.1"
+  },
+  "export" : {
+    "exporttime" : "2023-09-15 17:09:56.555",
+    "starttime" : "2023-09-12 15:34:57.000",
+    "endtime" : "2023-09-13 18:03:42.000"
+  },
+  "instrument" : {
+    "serial" : 204347,
+    "model" : "RBRconcerto³",
+    "fwtype" : 104,
+    "fwversion" : 1.116
+  },
+  "dataheader" : [ {
+    "index" : 1,
+    "name" : "Time",
+    "format" : "yyyy-MM-dd HH:mm:ss.SSS"
+  }, {
+    "index" : 1,
+    "name" : "Conductivity",
+    "units" : "mS/cm",
+    "calibration" : {
+      "time" : "2020-03-28 01:38:40.000",
+      "C0" : 0.020164724,
+      "C1" : 152.7838,
+      "X0" : 5.5134215E-4,
+      "X1" : -1.5217915E-5,
+      "X2" : 6.0E-7,
+      "X3" : 15.085349,
+      "X4" : 10.0
+    }
+  }, {
+    "index" : 2,
+    "name" : "Temperature",
+    "units" : "Degrees_C",
+    "calibration" : {
+      "time" : "2020-03-27 14:31:44.000",
+      "C0" : 0.0034746476,
+      "C1" : -2.524077E-4,
+      "C2" : 2.399643E-6,
+      "C3" : -7.118154E-8
+    }
+  }, {
+    "index" : 3,
+    "name" : "Pressure",
+    "units" : "dbar",
+    "sensor" : "K190767",
+    "calibration" : {
+      "time" : "2020-03-27 19:17:33.000",
+      "C0" : -0.68818724,
+      "C1" : 225.53719,
+      "C2" : 1.752642,
+      "C3" : -2.2691007,
+      "X0" : 10.052,
+      "X1" : 0.008431385,
+      "X2" : 3.2344633E-5,
+      "X3" : -6.2381E-7,
+      "X4" : -4.5620447E-5,
+      "X5" : 25.0
+    }
+  }, {
+    "index" : 4,
+    "name" : "Sea pressure",
+    "units" : "dbar"
+  }, {
+    "index" : 5,
+    "name" : "Depth",
+    "units" : "m"
+  }, {
+    "index" : 6,
+    "name" : "Salinity",
+    "units" : "PSU"
+  }, {
+    "index" : 7,
+    "name" : "Speed of sound",
+    "units" : "m/s"
+  }, {
+    "index" : 8,
+    "name" : "Specific conductivity",
+    "units" : "uS/cm"
+  }, {
+    "index" : 11,
+    "name" : "Density anomaly",
+    "units" : "kg/m3"
+  } ],
+  "schedule" : {
+    "loggertime" : "2023-09-15 14:03:51.588",
+    "starttime" : "1999-12-31 20:00:00.000",
+    "endtime" : "2099-12-30 20:00:00.000"
+  },
+  "sampling" : {
+    "mode" : "CONTINUOUS",
+    "period" : "500"
+  },
+  "parameters" : {
+    "atmpressure" : 10.1325,
+    "density" : 1.0281,
+    "altitude" : 0.0,
+    "temperature" : 15.0,
+    "pressure" : 10.1325,
+    "conductivity" : 42.914,
+    "salinity" : 35.0,
+    "spec_cond_coeff" : 0.0191,
+    "offsetfromutc" : 0.0
+  }
+}
