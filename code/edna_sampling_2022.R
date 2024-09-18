@@ -14,10 +14,10 @@ sf_use_s2(FALSE)
   utm_mar <- "+proj=utm +zone=20 +datum=NAD83 +units=km +no_defs +ellps=GRS80 +towgs84=0,0,0"
 
 #load the Musquash Estuary polygon
-  musquash <- read_sf("data/Musquash_MPA_region.shp")%>%st_transform(latlong)
+  musquash <- read_sf("data/Shapefiles/Musquash_MPA_region.shp")%>%st_transform(latlong)
 
 #load coordinates
-  edna_samples <- read.csv("data/Musquash_WaterSampling_2022_formatted.csv")%>%
+  edna_samples <- read.csv("data/Datasheets/Musquash_WaterSampling_2022_formatted.csv")%>%
                   mutate(longitude=(long_deg+long_dm/60)*-1,latitude=lat_deg+lat_dm/60)%>%
                   st_as_sf(coords=c("longitude","latitude"),crs=latlong)%>%
                   mutate(target = station)%>%

@@ -26,13 +26,13 @@ latlong <- "+proj=longlat +datum=NAD83 +no_defs +ellps=GRS80 +towgs84=0,0,0"
 utm_mar <- "+proj=utm +zone=20 +datum=NAD83 +units=km +no_defs +ellps=GRS80 +towgs84=0,0,0"
 
 #load the Musquash Estuary polygon ----
-musquash <- read_sf("data/Musquash_MPA_region.shp")%>%st_transform(latlong)
+musquash <- read_sf("data/Shapefiles/Musquash_MPA_region.shp")%>%st_transform(latlong)
 
 #read in the sond data 
-sonde_df <- read.csv("data/Musquash_eDNA2209v2_cleaned.csv") 
+sonde_df <- read.csv("data/Sonde/Musquash_eDNA2209v2_cleaned.csv") 
 
 #load the sampled sites for coordinates -----
-edna_samples <- read.csv("data/Musquash_WaterSampling_2022_formatted.csv")%>%
+edna_samples <- read.csv("data/DataSheets/Musquash_WaterSampling_2022_formatted.csv")%>%
                 mutate(longitude=(long_deg+long_dm/60)*-1,latitude=lat_deg+lat_dm/60)%>%
                 st_as_sf(coords=c("longitude","latitude"),crs=latlong,remove=FALSE)%>%
                 mutate(target = station)%>%
@@ -47,7 +47,7 @@ edna_samples <- read.csv("data/Musquash_WaterSampling_2022_formatted.csv")%>%
 #process the CastAway data ---- 
 
 #get the file paths
-ctdpaths <- dir("data/CastAway_2022/",full.names = T)
+ctdpaths <- dir("data/CTD/2022/",full.names = T)
 
 #parse those that are invalid sets
 castaway_paths <- ctdpaths[ctd_check_batch(ctdpaths)]

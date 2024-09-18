@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 3.2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="45.141370999999999" minlon="-66.321789999999993" maxlat="45.190522999999999" maxlon="-66.232585000000000"/></metadata>                
+<wpt lat="45.141371" lon="-66.259479">
+  <name>Musquash_1</name>
+  <extensions>
+    <ogr:description>Gooseberry cove</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.143736" lon="-66.242942">
+  <name>Musquash_2</name>
+  <extensions>
+    <ogr:description>Outer Anchor station</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.150199765329504" lon="-66.244187893525606">
+  <name>Musquash_3</name>
+  <extensions>
+    <ogr:description>Outer to Inner intermediate stations</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.156663509717802" lon="-66.245434068724606">
+  <name>Musquash_4</name>
+  <extensions>
+    <ogr:description>Outer to Inner intermediate stations</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.163127233158797" lon="-66.246680525723605">
+  <name>Musquash_5</name>
+  <extensions>
+    <ogr:description>Outer to Inner intermediate stations</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.16932" lon="-66.247875">
+  <name>Musquash_6</name>
+  <extensions>
+    <ogr:description>Inner Anchor station</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.154007" lon="-66.25887">
+  <name>Musquash_7</name>
+  <extensions>
+    <ogr:description>Western Anchor station</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.155941629840299" lon="-66.249953922393701">
+  <name>Musquash_8</name>
+  <extensions>
+    <ogr:description>West to East intermediate stations</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.1578755629236" lon="-66.241037241496798">
+  <name>Musquash_9</name>
+  <extensions>
+    <ogr:description>West to East intermediate stations</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.159708" lon="-66.232585">
+  <name>Musquash_10</name>
+  <extensions>
+    <ogr:description>Eastern anchor station</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.181098" lon="-66.246227">
+  <name>Musquash_11</name>
+  <extensions>
+    <ogr:description>Inner Channel 1</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.190523" lon="-66.281674">
+  <name>Musquash_12</name>
+  <extensions>
+    <ogr:description>Inner Channel 2</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.175371" lon="-66.294977">
+  <name>Musquash_13</name>
+  <extensions>
+    <ogr:description>Inner Channel 3</ogr:description>
+  </extensions>
+</wpt>
+<wpt lat="45.183675" lon="-66.32179">
+  <name>Musquash_14</name>
+  <extensions>
+    <ogr:description>Inner Channel 4</ogr:description>
+  </extensions>
+</wpt>
+</gpx>

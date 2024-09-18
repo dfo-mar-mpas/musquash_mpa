@@ -21,7 +21,7 @@ utm_mar <- "+proj=utm +zone=20 +datum=NAD83 +units=km +no_defs +ellps=GRS80 +tow
 dem_proj <- "+proj=sterea +lat_0=46.5 +lon_0=-66.5 +k=0.999912 +x_0=2500000 +y_0=7500000 +datum=NAD83 +units=m +no_defs"
 
 #load the Musquash Estuary polygon
-musquash <- read_sf("data/Musquash_MPA_region.shp")%>%st_transform(latlong)%>%filter(!is.na(ZONE)) #something wonky with the zone polygon
+musquash <- read_sf("data/Shapefiles/Musquash_MPA_region.shp")%>%st_transform(latlong)%>%filter(!is.na(ZONE)) #something wonky with the zone polygon
 
 #plotting boundaries
 musquash_bounds_buf <- musquash%>%
@@ -36,10 +36,10 @@ musquash_bounds_buf <- musquash%>%
 musquash_bounds <- musquash%>%st_bbox()
 
 #basemap
-basemap <- read_sf("data/musquash_coastal_hr.shp")%>%st_transform(latlong)
+basemap <- read_sf("data/Shapefiles/musquash_coastal_hr.shp")%>%st_transform(latlong)
 
 #load the dem
-musquash_dem <- raster("data/stjohn_5.tif")%>%
+musquash_dem <- raster("data/stjohn_5.tif")%>% ##only works locally
                 crop(.,extent(musquash%>%st_transform(dem_proj)))%>%
                 projectRaster(.,crs=latlong)
 
