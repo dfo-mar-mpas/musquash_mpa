@@ -60,15 +60,17 @@ CTDProcess <- function(path,datetime=T,returncols=F){
       
       colnames(castdata) <- BetterNames$new
     
-    ## deal with data and time - split into columns. Disabled for now. It has a bug that I have not fixed. 
-    
-    #extra date time is probably not required. Remove this and use local
-     #castdata <- castdata[,-grep("CastTime_UTC",names(castdata))]
-      #castdata$CastTime_Local <- as.POSIXct(castdata$CastTime_Local) # set POSIX mode
+    ## deal with data and time - split into columns. Remove UTC and use local.
+      ##Disabled for now. 
+      #There is a bug associated with using files from multiple subdirectories. 
+      #Solution would be to deal with date and time after all of the individual files have been combined. 
+      #castdata <- castdata[,-grep("CastTime_UTC",names(castdata))]
+      #castdata$CastTime_Local <- as.POSIXct(castdata$CastTime_Local)
+      # set POSIX mode
       
       #if(datetime){
        # castdata$day <- lubridate::day(castdata$CastTime_Local)
-        #castdata$month <- lubridate::month(castdata$CastTime_Local)
+       # castdata$month <- lubridate::month(castdata$CastTime_Local)
         #castdata$year <- lubridate::year(castdata$CastTime_Local)
         #castdata$hour <- lubridate::hour(castdata$CastTime_Local)
         #castdata$minute <- lubridate::minute(castdata$CastTime_Local)
@@ -87,7 +89,7 @@ CTDProcess <- function(path,datetime=T,returncols=F){
 
 }
 
-## import_multiple_csv_files_to_R using list functions
+## import_multiple_csv_files_to_R using list functions   
 ## Purpose: Import multiple csv files to the Global Environment in R
 
   # Creating a list of all csv files from the current working directory
@@ -95,7 +97,7 @@ CTDProcess <- function(path,datetime=T,returncols=F){
   # e.g. list.files(pattern="*.csv$", recursive = TRUE) 
   # use the pattern argument to define a common pattern  for import files with regex. Here: .csv
   # This is written to data frame list.filenames.
-  list.filenames<-list.files(pattern="*.csv$", recursive = TRUE)
+{  list.filenames<-list.files(pattern="*.csv$", recursive = TRUE) 
   list.filenames
 
   # Create an empty list that will serve as a container to receive the incoming files.
@@ -105,12 +107,20 @@ CTDProcess <- function(path,datetime=T,returncols=F){
   for (i in 1:length(list.filenames))
 {
   list.data[[i]]<-CTDProcess(list.filenames[i],datetime = T,returncols = F)
+   
 }
 
   # add the names of your data to the list
   names(list.data)<-list.filenames
 
 ## merge dataframes in the list using rbindlist and then write as one single .csv file
+   ctdall<-rbindlist(list.data)
+  #removes blank lines of data that I can't figure out why they are created. 
+   #It has something to do with the CTDProcess function as it is 29 lines of blank for each file, 
+   #which is the number of rows in the metadata "INFO header". 
+    ctdall <- ctdall %>% filter(Depth != "NA")
+  #writes to a .csv file
+  write.csv(ctdall, file = "~/R/CastawayCTD/data_output/ctdall.csv") 
+  }
 
-  ctdall<-rbindlist(list.data)
-  write.csv(ctdall, file = "~/R/CastawayCTD/data_output/ctdall.csv")
+  
